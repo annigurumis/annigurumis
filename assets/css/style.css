@@ -1,0 +1,139 @@
+body{
+	font-family: 'PecitaBook';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+	background-color: #FAE0E0;
+	
+}
+
+a{
+	color: #54443E;
+  	text-decoration: none;
+}
+
+a:hover{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20version%3D%221%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%2229%20251%20596%2033%22%3E%3Cstyle%20type%3D%27text%2Fcss%27%3Esvg%7B100vw%3B%7Dpath%7Bstroke-dasharray%3A2300%3Bstroke-dashoffset%3A2300%3Banimation%3A%20dash%203s%20linear%20infinite%3B%7D%40keyframes%20dash%7Bto%7Bstroke-dashoffset%3A%200%3B%7D%7D%3C%2Fstyle%3E%3Cdefs%3E%3Cpath%20d%3D%22M32%20257l3%202c19%2011%2045%2015%2069%2010l15-3c30-7%2063-6%2092%203l22%206c28%208%2060%207%2088-2l37-13c18-7%2039-8%2058-4l54%2012c13%203%2027%202%2039-3%205-1-4%202%200%200%2017-6%2036-8%2055-4l58%2010%22%20id%3D%22a%22%3E%3C%2Fpath%3E%3C%2Fdefs%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%20fill-opacity%3D%220%22%20stroke%3D%22%23603471%22%20stroke-width%3D%225%22%2F%3E%3C%2Fsvg%3E");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 80%;
+  	border-bottom: 0;
+  	text-decoration: none;
+	color: #54443E;
+	/*color: #9B5151;*/
+}
+
+.navbar-brand{
+	font-family: 'PecitaBook';
+   	font-weight: normal;
+   	font-style: normal;
+	font-size: 32px;
+}
+
+/*selector {
+	property: value;
+}
+
+svg {
+	    background-repeat: no-repeat;
+
+  height: 100vh;
+  width: 100vw;
+}
+path {  
+  stroke-dasharray:2300;
+	stroke-dashoffset:2300;
+	animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+*/
+
+.containerCardDesk{
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.card{
+	border-radius: 40px;
+	/*border-color: #54443E;
+	border-style: dashed;	
+	border-width: 3px;*/
+}
+
+.card-body{
+	text-align: center;
+}
+
+.card-body h4{
+	margin-bottom: 0;
+}
+
+.card-img-top{
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+	/*Zoom effect*/
+	max-width: 100%;
+	transition:  all 0.3s;
+	display: block;
+	width: 100%;
+	height: auto;
+	transform: scale(1);
+	
+	overflow: hidden;
+}
+
+.card-img-top:hover{
+	/*Zoom effect*/
+	transform: scale(1.2);
+	
+	/*Opacity effect*/
+	opacity: 0.7;
+}
+
+.img-box{
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+	/*Zoom effect*/	
+	position: relative;	
+	overflow: hidden;
+}
+
+.btn{
+	box-sizing: border-box;
+	background-color: transparent;
+	border: 2px solid #54443E;
+	border-radius: 30px;
+	color: #54443E;
+	cursor: pointer;
+	display: flex;
+	align-self: center;
+	font-size: 18px;
+	line-height: 1;
+	margin:20px;
+	padding: 1.2em 2.2em;
+	text-decoration: none;
+	text-align: center;
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+	
+	/*For showing button in the card*/
+	position: absolute;
+}
+
+.btn:hover{
+	box-shadow: 0 0 40px 40px #54443E inset;
+	color: #fff;
+	outline: 0;
+}
+
+.btn:focus{
+	color: #fff;
+	outline: 0;
+}
